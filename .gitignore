@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# raw datasets are downloaded on demand, never committed
+data/nsl_kdd/*.txt
+data/**/*.csv
+# keep result JSON + figures, ignore scratch
+results/*.tmp
+.DS_Store
